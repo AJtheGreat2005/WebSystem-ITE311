@@ -23,4 +23,8 @@ $routes->get('/announcements', 'Announcement::index');
 $routes->get('/announcements/create', 'Announcement::create');
 $routes->post('/announcements/store', 'Announcement::store');
 
+// Role-Based Dashboard Routes
+$routes->get('/teacher/dashboard', 'Teacher::dashboard');
+$routes->get('/admin/dashboard', 'Admin::dashboard');
+
 $routes->setAutoRoute(true);
