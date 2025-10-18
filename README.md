@@ -1,3 +1,23 @@
+# Student Portal - ITE313 Midterm Project
+
+## Project Overview
+This is a Student Portal system built with CodeIgniter 4 for the ITE313 Midterm Examination.
+
+## Features Implemented
+- **Authentication System**: User registration, login, logout with session management
+- **Announcements Module**: Admin can post announcements visible to all logged-in users
+- **Role-Based Access Control**: Different permissions for Admin, Teacher, and Student roles
+- **Responsive Design**: Modern Bootstrap 5 UI with professional styling
+
+## Technologies Used
+- CodeIgniter 4.6.3
+- PHP 8.1+
+- MySQL Database
+- Bootstrap 5
+- Bootstrap Icons
+
+---
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
