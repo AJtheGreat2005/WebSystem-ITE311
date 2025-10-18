@@ -68,7 +68,7 @@ class AnnouncementModel extends Model
     {
         return $this->select('announcements.*, users.name as posted_by_name, users.role')
                     ->join('users', 'users.id = announcements.posted_by')
-                    ->orderBy('announcements.date_posted', 'DESC')
+                    ->orderBy('announcements.created_at', 'DESC')
                     ->findAll();
     }
 
